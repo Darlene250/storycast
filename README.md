@@ -8,9 +8,11 @@ Built with semantic HTML5, Sass and vanilla CSS. No frameworks.
 - `index.html`: Home page (featured stories)
 - `about.html`: About / Access page
 - `story/story-1.html`: Story detail page (audio, transcript, related stories)
+- `story/story-2.html`: Second story page (audio, transcript, related stories)
 - `sass/`: partials (`_colors`, `_typography`, `_spacing`) and `main.scss`
 - `css/main.css`: compiled styles
 - `assets/`: media files (audio and images)
+- `docs/StoryCast Research.pdf`: research document (sitemap, wireframes, mockups)
 
 ## Run locally
 
@@ -33,6 +35,7 @@ Built with semantic HTML5, Sass and vanilla CSS. No frameworks.
 ## Design links
 
 - Sitemap and wireframes (Figma): https://www.figma.com/design/ZqtUy6ctvUjaJ8dgiPOmJg/StoryCast-Sitemap?node-id=0-1&t=8Od0biNby1DeQGca-1
+- Live site (GitHub Pages): https://darlene250.github.io/storycast/
 
 ## Credits
 
