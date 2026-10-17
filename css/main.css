@@ -63,5 +63,18 @@ main {
     margin: 0;
   }
 }
+.skip-link {
+  position: absolute;
+  left: -999px;
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 0.5rem;
+  z-index: 10;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -69,3 +69,17 @@ main {
     margin: 0;
   }
 }
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  background: $color-text;
+  color: $color-bg;
+  padding: $space-1 $space-2;
+}
+
+.skip-link:focus {
+  left: $space-2;
+  top: $space-1;
+  z-index: 10;
+}
