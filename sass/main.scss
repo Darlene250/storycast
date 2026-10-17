@@ -1,0 +1,35 @@
+@use "colors" as *;
+@use "typography" as *;
+@use "spacing" as *;
+
+body {
+  margin: 0;
+  font-family: $font-body;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $color-text;
+  background: $color-bg;
+}
+
+a {
+  color: $color-primary;
+}
+
+a:focus-visible,
+audio:focus-visible {
+  outline: 3px solid $color-accent;
+  outline-offset: 3px;
+}
+
+nav {
+  display: flex;
+  gap: $space-2;
+  padding: $space-2;
+  background: $color-surface;
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: $space-3;
+}

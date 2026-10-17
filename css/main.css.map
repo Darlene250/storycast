@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/main.scss","../sass/_typography.scss","../sass/_colors.scss","../sass/_spacing.scss"],"names":[],"mappings":"AAIA;EACE;EACA,aCNU;EDOV,WCNe;EDOf,aCNiB;EDOjB,OERW;EFSX,YEVS;;;AFaX;EACE,OEZc;;;AFehB;AAAA;EAEE;EACA;;;AAGF;EACE;EACA,KGxBQ;EHyBR,SGzBQ;EH0BR,YEvBc;;;AF0BhB;EACE;EACA;EACA,SG/BQ","file":"main.css"}
