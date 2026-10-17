@@ -37,4 +37,5 @@ Built with semantic HTML5, Sass and vanilla CSS. No frameworks.
 ## Credits
 
 - Music: "Ambient Music" by leberch, from Pixabay (royalty-free)
+- Music: "Drum" by The_Mountain, from Pixabay (royalty-free)
 - Photos: Pexels (free to use)
