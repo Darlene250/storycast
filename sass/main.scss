@@ -33,3 +33,39 @@ main {
   margin: 0 auto;
   padding: $space-3;
 }
+
+.featured {
+  display: grid;
+  gap: $space-3;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+.card {
+  container-type: inline-size;
+  container-name: card;
+  background: $color-surface;
+  padding: $space-2;
+  border-radius: 0.5rem;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+// Container query: wide cards put image and text side by side
+@container card (min-width: 30rem) {
+  .card__inner {
+    display: flex;
+    gap: $space-2;
+    align-items: center;
+  }
+
+  .card__inner figure {
+    flex: 0 0 40%;
+    margin: 0;
+  }
+}
